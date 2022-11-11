@@ -1,4 +1,6 @@
-# Obsidian Ghost Publish
+# Obsidian Ghost Lawmedia (fork of Obsidian Ghost Publish)
+
+I'm just dinking around with this plugin.
 
 Plugin for publish to [Ghost](https://ghost.org/) site for [Obsidian](https://obsidian.md/) with a single click.
 
