@@ -1,6 +1,6 @@
-# Obsidian Ghost Lawmedia (fork of Obsidian Ghost Publish)
+# Obsidian Ghost Lawmedia (fork of Obsidian Ghost Publish by Jay Nguyens)
 
-I'm just dinking around with this plugin.
+I'm just dinking around with this plugin. Nothing of value here was written by me.
 
 Plugin for publish to [Ghost](https://ghost.org/) site for [Obsidian](https://obsidian.md/) with a single click.
 
@@ -12,7 +12,7 @@ Plugin for publish to [Ghost](https://ghost.org/) site for [Obsidian](https://ob
 
 ## Frontmatter format
 
-Obsidian Ghost Publish use frontmatter to specify on how you want to publish your post.
+Obsidian Ghost Publish uses frontmatter (YAML) to specify on how you want to publish your post.
 
 At the moment, the format is limited to:
 

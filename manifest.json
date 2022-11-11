@@ -1,10 +1,10 @@
 {
-	"id": "obsidian-ghost-publish",
-	"name": "Obsidian Ghost Publish",
+	"id": "obsidian-ghost-lawmed",
+	"name": "Obsidian Ghost Lawyers Media",
 	"version": "1.3.0",
 	"minAppVersion": "0.12.0",
-	"description": "Single click to publish to Ghost",
-	"author": "@jaynguyens <jay@nguyens.co>",
-	"authorUrl": "https://nguyens.co",
+	"description": "Simple publishing from Obsidian to Ghost",
+	"author": "@tjotoole <tjotoole@gmail.com>",
+	"authorUrl": "https://www.lawyers.media",
 	"isDesktopOnly": false
 }

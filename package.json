@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-ghost-publish",
+	"name": "obsidian-ghost-lawmed",
 	"version": "1.3.0",
-	"description": "Obsidian plugin for easy publish to ghost with a single click.",
+	"description": "Obsidian plugin for easy publishing to Ghost blogging platform.",
 	"main": "src/main.ts",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
@@ -10,9 +10,9 @@
 	},
 	"keywords": [],
 	"author": {
-		"name": "Jay Nguyen",
-		"email": "jay@nguyens.co",
-		"url": "https://github.com/jaynguyens/obsidian-ghost-publish"
+		"name": "Thomas O\'Toole",
+		"email": "tjotoole@gmail.com",
+		"url": "https://github.com/thomasotoole/obsidian-ghost-lawmed"
 	},
 	"license": "MIT",
 	"devDependencies": {
