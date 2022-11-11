@@ -15,6 +15,9 @@ export interface ContentProp {
 	status: string;
 	excerpt?: string | undefined;
 	feature_image?: string;
+    meta_title?: string | undefined;
+    meta_description?: string | undefined;
+    email_only?: boolean;
 }
 
 export interface DataProp {

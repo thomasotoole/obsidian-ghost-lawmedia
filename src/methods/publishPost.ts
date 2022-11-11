@@ -45,6 +45,9 @@ export const publishPost = async (
 		featured: metaMatter?.featured || false,
 		status: metaMatter?.published ? "published" : "draft",
 		excerpt: metaMatter?.excerpt || undefined,
+        meta_title: metaMatter?.meta_title || undefined,
+        meta_description: metaMatter?.meta_description || undefined,
+        email_only: metaMatter?.email_only || false,
 		feature_image: metaMatter?.feature_image || undefined,        
 	};
 
