@@ -1,9 +1,9 @@
 {
 	"id": "obsidian-ghost-lawmed",
-	"name": "Obsidian Ghost Lawyers Media",
+	"name": "Publish to Lawyers Media",
 	"version": "1.3.0",
 	"minAppVersion": "0.12.0",
-	"description": "Simple publishing from Obsidian to Ghost",
+	"description": "Publish Obsidian note to Lawyers Media website on Ghost",
 	"author": "@tjotoole <tjotoole@gmail.com>",
 	"authorUrl": "https://www.lawyers.media",
 	"isDesktopOnly": false

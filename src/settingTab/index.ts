@@ -13,7 +13,7 @@ export class SettingTab extends PluginSettingTab {
 		const { containerEl } = this;
 
 		containerEl.empty();
-		containerEl.createEl("h2", { text: "Obsidian Ghost Publish Lawyers Media" });
+		containerEl.createEl("h2", { text: "Publish Obsidian Note to Lawyers Media" });
 
 		const document = containerEl.createEl("p", {
 			text: `Need help? Take a look on how to use me on `,
@@ -24,17 +24,6 @@ export class SettingTab extends PluginSettingTab {
 				href: "https://github.com/thomasotoole/obsidian-ghost-lawmed/blob/master/README.md",
 			},
 			text: "the documentation",
-		});
-
-		const donation = containerEl.createEl("p", {
-			text: "You can support future development by ",
-		});
-
-		donation.createEl("a", {
-			attr: {
-				href: "https://www.buymeacoffee.com/jaynguyens",
-			},
-			text: "buy me a cofee ☕️",
 		});
 
 		containerEl.createEl("br");

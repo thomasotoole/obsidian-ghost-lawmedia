@@ -64,7 +64,7 @@ export const publishPost = async (
 
 	if (json?.posts) {
 		new Notice(
-			`"${json?.posts?.[0]?.title}" has been ${json?.posts?.[0]?.status} successful!`
+			`"${json?.posts?.[0]?.title}" (${json?.posts?.[0]?.status}) was uploaded to Lawyers Media`
 		);
 	} else {
 		new Notice(`${json.errors[0].context || json.errors[0].message}`);
