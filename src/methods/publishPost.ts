@@ -40,12 +40,32 @@ export const publishPost = async (
 	const data = matter(view.getViewData());
 
 	const frontmatter = {
+        authors: 
+
+        [
+            {
+                "id": "5951f5fca366002ebd5dbef7",
+                "name": "Ghost",
+                "slug": "ghost",
+                "profile_image": "https://demo.ghost.io/content/images/2017/07/ghost-icon.png",
+                "cover_image": null,
+                "bio": "The professional publishing platform",
+                "website": "https://ghost.org",
+                "location": null,
+                "facebook": "ghost",
+                "twitter": "@tjotoole",
+                "meta_title": null,
+                "meta_description": null,
+                "url": "https://demo.ghost.io/author/ghost/"
+            }
+        ],
+
 		title: metaMatter?.title || view.file.basename,
 		tags: metaMatter?.tags || [],
 		featured: metaMatter?.featured || false,
 		status: metaMatter?.published ? "published" : "draft",
 		excerpt: metaMatter?.excerpt || undefined,
-		feature_image: metaMatter?.feature_image || undefined,
+		feature_image: metaMatter?.feature_image || undefined,        
 	};
 
 	const result = await request({
