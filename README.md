@@ -1,6 +1,6 @@
 # Obsidian Ghost Lawmedia (fork of Obsidian Ghost Publish by Jay Nguyens)
 
-I'm just dinking around with this plugin. Nothing of value here was written by me.
+Just dinking around with this plugin. Nothing of value here was written by me.
 
 Plugin for publish to [Ghost](https://ghost.org/) site for [Obsidian](https://obsidian.md/) with a single click.
 
@@ -19,12 +19,15 @@ At the moment, the format is limited to:
 ```md
 title: string (default: file name)
 tags: (default: [])
-- tag1
-- tag2
+- tag_1
+- tag_2
 featured: boolean (default: false)
 published: boolean (default: false)
 excerpt: string (default: undefined)
 feature_image: string (default: undefined)
+meta_title: string (default: undefined)
+meta_description: strong (default: undefined)
+email_only: boolean (default: false)
 ```
 
 Note:

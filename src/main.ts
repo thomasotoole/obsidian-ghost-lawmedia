@@ -12,7 +12,7 @@ export default class GhostPublish extends Plugin {
 
 		// 2 ways to publish:
 		// 1. Click on the ghost icon on the left
-		this.addRibbonIcon("ghost", "Publish Ghost", () => {
+		this.addRibbonIcon("ghost", "Publish to Ghost", () => {
 			const view = this.app.workspace.getActiveViewOfType(MarkdownView);
 			if (!view) {
 				new Notice(
