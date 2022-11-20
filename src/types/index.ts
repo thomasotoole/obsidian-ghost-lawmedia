@@ -17,6 +17,7 @@ export interface ContentProp {
 	feature_image?: string;
     meta_title?: string | undefined;
     meta_description?: string | undefined;
+    custom_template?: string | undefined;
     email_only?: boolean;
 }
 

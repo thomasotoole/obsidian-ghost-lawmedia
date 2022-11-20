@@ -48,6 +48,7 @@ export const publishPost = async (
         meta_title: metaMatter?.meta_title || undefined,
         meta_description: metaMatter?.meta_description || undefined,
         email_only: metaMatter?.email_only || false,
+        custom_template: metaMatter?.custom_template || undefined,
 		feature_image: metaMatter?.feature_image || undefined,        
 	};
 

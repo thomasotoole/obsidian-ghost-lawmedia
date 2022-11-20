@@ -26,7 +26,8 @@ published: boolean (default: false)
 excerpt: string (default: undefined)
 feature_image: string (default: undefined)
 meta_title: string (default: undefined)
-meta_description: strong (default: undefined)
+meta_description: string (default: undefined)
+custom_template: string (default: undefined)
 email_only: boolean (default: false)
 ```
 
