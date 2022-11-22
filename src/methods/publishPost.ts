@@ -46,7 +46,7 @@ export const publishPost = async (
 		status: metaMatter?.published ? "published" : "draft",
 		excerpt: metaMatter?.excerpt || undefined,
         // meta_title: metaMatter?.meta_title || undefined,
-        meta_title: metaMatter?.title + " | Lawyers Media LLC" || undefined,
+        meta_title: metaMatter?.title + metaMatter?.meta_title_addon || undefined,
         meta_description: metaMatter?.meta_description || undefined,
         email_only: metaMatter?.email_only || false,
         custom_template: metaMatter?.custom_template || undefined,
